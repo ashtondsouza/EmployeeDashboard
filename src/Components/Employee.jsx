@@ -21,7 +21,7 @@ const Employee = () => {
         setData(finalData.data);
       }
 
-    // async function fetchApi(retryCount = 0) {
+    // async function fetchApi(retryCount = 0)  {
     //     try {
     //       let response = await fetch("https://dummy.restapiexample.com/api/v1/employees");
     //       if (!response.ok) {
@@ -154,7 +154,7 @@ const Employee = () => {
                 <div className='h-[5px] relative left-[200px]'>
                 <input
               type="checkbox"
-               className='w-[20px] h-[20px] '
+               className='w-[20px] h-[20px]'
               checked={selectedCards.includes(m.id)}
               onChange={() => handleSelectCard(m.id)}
               onClick={(e) => e.stopPropagation()} 
