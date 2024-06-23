@@ -18,7 +18,7 @@ const Employee = () => {
         console.log(data);
         let finalData = await data.json();
         console.log(finalData);
-        setData(finalData);
+        setData(finalData.data);
       }
 
     // async function fetchApi(retryCount = 0) {
